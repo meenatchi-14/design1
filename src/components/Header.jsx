@@ -1,25 +1,25 @@
 import hooodImg from "../assets/hoood.png"
+import hooodTxt from "../assets/hooodText.png"
 function Header() {
     return (
         <div>
             <header className="header">
                 <div className="head">
-
-                    <img src={hooodImg} className="logo" alt="hoood" />
-                    <div><h2> HOOOD</h2>
-                        <h6>Prompt Made Social</h6>
+                    <div className="start">
+                        <img src={hooodImg} className="logo" alt="hoood" />
+                        <img src={hooodTxt} className="hooodTxt" alt="hoood" />
                     </div>
-
-                    <nav class="nav">
+                    <div class="nav">
                         <ul className="head-links">
                             <li>Features</li>
                             <li>How it works</li>
                             <li>Community</li>
-                            <li> <button className="login">Login</button></li>
+
                         </ul>
 
-                    </nav>
+                    </div>
                 </div>
+                <button className="login">Log in</button>
             </header>
             <hr />
         </div>
