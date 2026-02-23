@@ -3,13 +3,18 @@ function Hero() {
     return (
         <section className="hero">
             <div className="hero-text">
-                <p className="badge">Designed for Flow</p>
-                <h1>A Better Way to Work with AI</h1>
+                <button className="badge">Prompt discovery, Done right</button>
+                <p className="boldText">Where Great</p>
+                <p className="boldGreen boldText"> Prompt Begin</p>
                 <p className="subtitle">
-                    HOOOD is a next gen prompt library where AI ideas are
-                    discovered, shared, and remixed.
+                    A platform built to simplify AI creativity by offering easy
+                    prompt sharing, clean UI, and a  collaborative user
+                    experience
                 </p>
-                <button className="cta">Get Hoood</button>
+                <div className="btns">
+                    <button className="cta colorG">Get Hoood</button>
+                    <button className="cta colorW"> Explore Hoood</button>
+                </div>
             </div>
 
             <img src={hero} alt="hero" className="hero-img" />
